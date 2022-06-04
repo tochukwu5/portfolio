@@ -209,14 +209,14 @@
 const time = new Date().getHours();
 let greeting;
 if (time < 12) {
-  greeting = "Hi, Good morning am David";
+  greeting = "Hi, Good morning I'm David";
 } else if (time < 16) {
-  greeting = "Hi, Good afternoon am David";
+  greeting = "Hi, Good afternoon I'm David";
 } 
 else if (time < 18) {
-  greeting = "Hi, Good day am David";
+  greeting = "Hi, Good day I'm David";
 } else {
-  greeting = "Hi, Good evening am David";
+  greeting = "Hi, Good evening I'm David";
 }
 document.getElementById("demo").innerHTML = greeting;
 

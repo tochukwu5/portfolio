@@ -293,7 +293,6 @@ toggle.onclick = function(){
  document.body.classList.toggle('light-theme')
  const bg = document.querySelectorAll('.section-bg');
 const p = document.querySelectorAll('.test-p');
-  console.log(p)
   
  if(document.body.classList.contains('light-theme')){
   bg.forEach(bg => bg.style.backgroundColor = '#f5f8fd');
@@ -311,6 +310,7 @@ p.forEach(p =>(p.style.boxShadow = '0px 2px 15px #0000001a'));
 // for the sticky nav bar
 const nav = document.querySelector('.nav1')
 const content = document.querySelector('.content2')
+content.style.display = 'none'
 window.addEventListener('scroll', fixNav)
 function fixNav(){
 if(window.scrollY > nav.offsetHeight + 250){
@@ -321,4 +321,3 @@ if(window.scrollY > nav.offsetHeight + 250){
   content.style.display = 'none'
 }
 }
-console.log(content)

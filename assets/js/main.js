@@ -1,5 +1,8 @@
 
 
+
+
+
 (function() {
   "use strict";
 
@@ -281,3 +284,41 @@ function onsubmit(e){
   msg.innerHTML = 'Your message has been sent. Thank you!';
   setTimeout(() => msg.remove(), 4000);
 }
+
+//for dark-theme toggle
+
+const toggle = document.getElementById('switch')
+
+toggle.onclick = function(){
+ document.body.classList.toggle('light-theme')
+ const bg = document.querySelectorAll('.section-bg');
+const p = document.querySelectorAll('.test-p');
+  console.log(p)
+  
+ if(document.body.classList.contains('light-theme')){
+  bg.forEach(bg => bg.style.backgroundColor = '#f5f8fd');
+p.forEach(p =>(p.style.boxShadow = '0px 2px 15px #0000001a'));
+
+ }else{
+  bg.forEach(bg => bg.style.backgroundColor = 'var(--dark)');
+  document.querySelector('.dark').style.color = '#fff'
+  p.forEach(p =>(p.style.boxShadow = '0px 2px 15px black'));
+
+
+ }  
+}
+
+// for the sticky nav bar
+const nav = document.querySelector('.nav1')
+const content = document.querySelector('.content2')
+window.addEventListener('scroll', fixNav)
+function fixNav(){
+if(window.scrollY > nav.offsetHeight + 250){
+  nav.classList.add('nav2')
+     content.style.display = 'block'
+}else{
+  nav.classList.remove('nav2')
+  content.style.display = 'none'
+}
+}
+console.log(content)

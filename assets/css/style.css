@@ -26,7 +26,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
   color: var(--white);
-  transition: 2s;
+  transition: 1.5s;
 }
 
 /*--------------------------------------------------------------
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 #main {
   margin-left: 300px;
   background-color: var(--dark);
-  transition: 2s;
+  transition: 1.5s;
 }
 
 @media (max-width: 1199px) {
@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
  z-index: 5;
 }
   .bounce {
-    animation: bounce 2s infinite;
+    animation: bounce 1.5s infinite;
   }
 .fa-arrow-down{
   color: #fff;
@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
   --white:#ffff;
   --light:rgb(209, 206, 206);
   --black:rgb(0, 6, 12);
-  --dark:rgb(0, 10, 20);  
+  --dark:rgb(7, 23, 42);  
   --test:rgb(0, 10, 20);  
   --form-bg: rgb(0,6,12); 
   --work-box: black;
@@ -386,12 +386,12 @@ section {
   padding: 60px 0;
   overflow: hidden;
   background-color: var(--dark);
-  transition: 2s;
+  transition: 1.5s;
 }
 
 .section-bg {
    background: var(--dark); 
-   transition: 2s;
+   transition: 1.5s;
 
 }
 
@@ -421,7 +421,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   color: var(--light);
-  transition: 2s;
+  transition: 1.5s;
 }
 
 /*--------------------------------------------------------------
@@ -429,7 +429,7 @@ section {
 --------------------------------------------------------------*/
 .about{
   border-bottom: 2px solid var(--black);
-  transition: 2s;
+  transition: 1.5s;
 }
 .about .content h3 {
   font-weight: 700;
@@ -440,7 +440,7 @@ section {
   list-style: none;
   padding: 0;
   color: var(--light);
-  transition: 2s;
+  transition: 1.5s;
 }
 .about .content ul li {
   margin-bottom: 20px;
@@ -458,7 +458,7 @@ section {
 }
 .about  p {
   color: var(--light);
-  transition: 2s;  
+  transition: 1.5s;  
 }
 
 /*--------------------------------------------------------------
@@ -466,7 +466,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio-mf{
   border-bottom: 2px solid var(--black);
-  transition: 2s;
+  transition: 1.5s;
 }
 .work-box {
   margin-bottom: 3rem;
@@ -476,7 +476,7 @@ section {
    color: var(--light);
   border-radius: 7px;
   box-shadow: 0px 2px 5px var(--work-box);
-  transition: 2s;
+  transition: 1.5s;
 }
 .butt .bt1{
   padding: 7px 30px;
@@ -517,7 +517,7 @@ background-color: rgba(7, 37, 206, 0.9) !important;
 --------------------------------------------------------------*/
 .services-mf{
   border-bottom: 2px solid var(--black);
-  transition: 2s;
+  transition: 1.5s;
 }
 .service-box {
   background: var(--form-bg);
@@ -526,7 +526,7 @@ background-color: rgba(7, 37, 206, 0.9) !important;
   margin-bottom: 3rem;
   text-align: center;
   box-shadow: 0px 2px 5px var(--work-box);
-  transition: 2s;
+  transition: 1.5s;
 }
 
 .service-box .service-ico {
@@ -548,7 +548,7 @@ height: 280px;
   /* color: #4e4e4e; */
   color: var(--light);
   padding: 0 1.3rem;
-  transition: 2s;
+  transition: 1.5s;
 
 }
 /* for tablet screen */
@@ -588,7 +588,7 @@ height: 280px;
   margin: 10px 0 5px 0;
   /* color: #111; */
   color: var(--white);
-  transition: 2s;
+  transition: 1.5s;
 }
 .testimonials .testimonial-item h4 {
   font-size: 14px;
@@ -620,7 +620,7 @@ height: 280px;
   margin-bottom: 35px;
   border-radius: 6px;
   box-shadow: 0px 2px 15px rgb(0, 0, 0);
-  transition: 2s;
+  transition: 1.5s;
 
 }
 
@@ -656,7 +656,7 @@ height: 280px;
 .contact {
   border-top: 2px solid var(--black);
   padding-bottom: 130px;
-  transition: 2s;
+  transition: 1.5s;
 
 }
 .contact .info {
@@ -664,7 +664,7 @@ height: 280px;
   background-color: var(--dark);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  transition: 2s;
+  transition: 1.5s;
 
 }
 .contact .info i {
@@ -686,7 +686,7 @@ height: 280px;
   font-weight: 600;
   margin-bottom: 5px;
   color: var(--white);
-  transition: 2s;
+  transition: 1.5s;
 
 }
 .contact .info p {
@@ -694,7 +694,7 @@ height: 280px;
   margin-bottom: 20px;
   font-size: 14px;
   color: var(--light);
-  transition: 2s;
+  transition: 1.5s;
 
 }
 .contact .info .email p {
@@ -731,30 +731,30 @@ height: 280px;
   background: var(--form-bg);
   color:var(--white);
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  transition: 2s;
+  transition: 1.5s;
 
 }
 .contact input{
   background:var(--form-bg) ;
   color: var(--white); ;
-  transition: 2s;
+  transition: 1.5s;
 
 }
 .contact input:focus{
   background:var(--form-bg) ;
   color: var(--white);
-  transition: 2s;
+  transition: 1.5s;
 
 }
 .contact textarea{
   background:var(--form-bg) ;
   color: var(--white);
-  transition: 2s;
+  transition: 1.5s;
 }
 .contact textarea:focus{
   background:var(--form-bg) ;
   color: var(--white);
-  transition: 2s;
+  transition: 1.5s;
 
 }
 .contact .php-email-form .form-group {
